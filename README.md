@@ -3,27 +3,18 @@ This is a simple flask app which takes an URL and shortens it. This shortened ve
 
 For each long URL given by the user the application randomly generates an alphabetical combination which redirects to the long URL.
 
-This executed flask app only works on local database server where you need to clone it to desktop pycharm application.
+**Steps to install in local system:**
+1) **Download** the above **code**
 
-Create a new directory **templates** under the Project folder and save **base.html** under this **templates** directory
+2) **Open** the code in **pycharm/vscode** or any other code editing platforms
 
-After completing above procedure, Run the **app.py** in the pycharm compiler which you will get a local IP adress **http://127.0.0.1:5000/** which remaining process will work under this IP adress by clicking on it.
+3) **Run** the code 
 
-This IP adress directly redirects to the **base.html** file and which we have already called this html file in our **home** function in **app.py**
+4) Open **http://127.0.0.7:5000** in web browser
 
-There you can able to see a input box which you need to give your **long url** to shorten it
+5) **Copy** one URL link and **paste** it in input field and click submit
 
-After Entering(or copying) your link to the input box click on **submit** button to generate a short url which genetares a **http://127.0.0.1:5000/{3 letter random code}**
+6) You will get the **count** of the url how many times it has been visited
 
-This Generated short url you can directly click on it or you can copy it to paste on any other browser to run
-
-This short url will directly redirects to the long url which we have already stored the information about this generated 3 digit random code in the local database(urls.db)
-
-This redirection process executes in function in our app called **Redirection** and every time it redirects the count will be incremented and updated in the database to display the no of times it has been visited.
-
-The data base for the long and short urls will create in the **Urls(db.Model)** function in the app.py
-
-If the user gives the same long URL, then this app checks whether the long URL has already been there on the database and returns the same short URL.
-
-If not then the database add the long URL and respected 3 letter random code.
+7) You will get the short url displayed on the screen along with **count**
 
