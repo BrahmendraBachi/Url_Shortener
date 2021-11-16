@@ -16,5 +16,5 @@ For each long URL given by the user the application randomly generates an alphab
 
 6) You will get the **count** of the url how many times it has been visited
 
-7) You will get the short url displayed on the screen along with **count**
+7) You will get the **short url** displayed on the screen **to share** along with **count**
 
