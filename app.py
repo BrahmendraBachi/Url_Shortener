@@ -53,4 +53,4 @@ def redirection(short_url):
     else:
         return f'<h1>Url doesnt exist</h1>'
 if __name__ == '__main__':
-    app.run(port=3306, debug=True)
+    app.run(port=3306, debug=False)
