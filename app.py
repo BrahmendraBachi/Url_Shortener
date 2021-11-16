@@ -4,7 +4,7 @@ import string
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://admin:YilyrXo6PFkO5R6YAxu0@database-1.carye9sb9qqd.us-east-2.rds.amazonaws.com:3306/ShortUrldatabase"
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///urls.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 class Urls(db.Model):
@@ -53,4 +53,4 @@ def redirection(short_url):
     else:
         return f'<h1>Url doesnt exist</h1>'
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=3306, debug=False)
+    app.run(host=5000, debug=False)
