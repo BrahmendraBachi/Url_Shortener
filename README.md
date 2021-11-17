@@ -20,4 +20,6 @@ For each long URL given by the user the application randomly generates an alphab
 
 8) You will get the **short url** displayed on the screen **to share** along with **count**
 
-<img width="956" alt="url" src="https://user-images.githubusercontent.com/55553477/142148877-8a3dadc1-719f-4560-99c0-a13f88614039.png"><img width="956" alt="url" src="https://user-images.githubusercontent.com/55553477/142149224-79bc9a78-08f0-4885-86a8-41569e0a3b5c.png">
+<img width="956" alt="url" src="https://user-images.githubusercontent.com/55553477/142148877-8a3dadc1-719f-4560-99c0-a13f88614039.png">![Inkedurl](https://user-images.githubusercontent.com/55553477/142149454-6cd6d004-28f0-4279-9c67-353e0d1d24e8.jpg)
+
+
