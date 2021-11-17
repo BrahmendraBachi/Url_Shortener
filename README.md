@@ -8,7 +8,7 @@ For each long URL given by the user the application randomly generates an alphab
 
 2) **Open** the code in **pycharm/vscode** or any other code editing platforms
 
-3)Before Running the code, run this command in terminal **pip3 install Flask Flask-SQLAlchemy**
+3) Before Running the code, run this command in terminal **pip3 install Flask Flask-SQLAlchemy**
 
 4) **Run** the code 
 
